@@ -977,6 +977,7 @@ GameObject:
   - component: {fileID: 1633250146}
   - component: {fileID: 1633250149}
   - component: {fileID: 1633250148}
+  - component: {fileID: 1633250151}
   - component: {fileID: 1633250147}
   - component: {fileID: 1633250150}
   m_Layer: 5
@@ -1049,16 +1050,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1633250150}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
+      - m_Target: {fileID: 1633250151}
+        m_TargetAssemblyTypeName: Change_scene, Assembly-CSharp
+        m_MethodName: NextLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
-          m_StringArgument: "\u0422\u044B \u043F\u0438\u0434\u043E\u0440"
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1633250148
@@ -1109,6 +1110,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c45c8d8a1c4c1034285fd2d9beddc78e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1633250151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633250145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a016c5b20b2077b49ac232e047644b47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2078049730
