@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 24f94e5fdb3300941bca4e06e61c2136
+  - enabled: 1
+    path: Assets/Scenes/Boss_fight_1.unity
+    guid: 7443f3f8bcd6e694aa23ad994c0e6722
+  - enabled: 1
+    path: Assets/Scenes/tasd.unity
+    guid: 0b71d40ba8f4f884eaa0fef63d4357ff
   m_configObjects: {}

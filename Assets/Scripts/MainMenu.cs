@@ -21,9 +21,4 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Game Exit");
         Application.Quit();
     }
-
-    public void PlayGame()
-    {
-
-    }
 }
