@@ -350,6 +350,37 @@ MonoBehaviour:
   - 6
   player: {fileID: 1461905360}
   per: 0.02
+--- !u!1 &930557112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 930557113}
+  m_Layer: 0
+  m_Name: top-down
+  m_TagString: top-side
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &930557113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930557112}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.358858, y: 1.3423085, z: -0.152788}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1461905360 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6262535850469872118, guid: b50b46cb22670ca469de8881ce9ca3e9, type: 3}
@@ -881,6 +912,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7711896574806878992, guid: b50b46cb22670ca469de8881ce9ca3e9, type: 3}
+      propertyPath: playerMode
+      value: 
+      objectReference: {fileID: 930557112}
     - target: {fileID: 8659652693111620778, guid: b50b46cb22670ca469de8881ce9ca3e9, type: 3}
       propertyPath: an
       value: 
@@ -948,3 +983,4 @@ SceneRoots:
   - {fileID: 2076393882}
   - {fileID: 157646329}
   - {fileID: 2086240728}
+  - {fileID: 930557113}

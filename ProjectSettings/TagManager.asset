@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - HP
+  - top-side
+  - left-side
+  - Door
   layers:
   - Default
   - TransparentFX

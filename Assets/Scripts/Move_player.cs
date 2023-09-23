@@ -10,6 +10,7 @@ public class Move_player : MonoBehaviour
     
     BoxCollider2D box;
     SpriteRenderer sr;
+    public GameObject playerMode;
     private TMP_Text moneyText; //field money 
 
     public float speed = 5f;
@@ -18,24 +19,38 @@ public class Move_player : MonoBehaviour
     {
         box = GetComponent<BoxCollider2D>();
         sr =  GetComponent<SpriteRenderer>();
-        moneyText = GameObject.FindGameObjectWithTag("HP").GetComponent<TMP_Text>();
     }
 
     private void Update()
     {
-        float movement_x = Input.GetAxis("Horizontal");
-        float movement_y = Input.GetAxis("Vertical");
+        
+        
+        if(playerMode.tag == "top-side") {
+            float movement_x = Input.GetAxis("Horizontal");
+            float movement_y = Input.GetAxis("Vertical");
 
-        if (movement_x != 0)
+            if (movement_x != 0)
+            {
+                sr.flipX = movement_x < 0 ? true : false;
+            }
+
+            transform.position += new Vector3(movement_x, movement_y, 0) * speed * Time.deltaTime;
+            this.transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+        else if(playerMode.tag == "left-side")
         {
-            sr.flipX = movement_x < 0 ? true : false;
+            float movement_x = Input.GetAxis("Horizontal");
+
+            if(movement_x != 0)
+            {
+                sr.flipX = movement_x < 0 ? true : false;
+            }
+
+            transform.position += new Vector3(movement_x, 0, 0) * speed * Time.deltaTime;
         }
 
-        transform.position += new Vector3(movement_x, movement_y, 0) * speed * Time.deltaTime;
-        this.transform.rotation = Quaternion.Euler(0, 0, 0);
-
     }
-
+    /**
     void OnCollisionEnter2D()
     {
         if (int.Parse(moneyText.text) > 1 )
@@ -47,4 +62,5 @@ public class Move_player : MonoBehaviour
         }
         
     }
+    */
 }
