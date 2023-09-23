@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Сamera_move : MonoBehaviour
+public class Camera_move_boss : MonoBehaviour
 {
 
-    [SerializeField] List<float> Frame_ogr = new List<float>()
+    public List<float> Frame_ogr = new List<float>()
     {
         -6.01f,
         6.01f,
@@ -27,6 +27,12 @@ public class Сamera_move : MonoBehaviour
         Vector3 desiredPosition = player.transform.position + offset;
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, per);
 
-        transform.position = new Vector3(Mathf.Clamp(smoothedPosition.x, Frame_ogr[0], Frame_ogr[1]), Mathf.Clamp(smoothedPosition.y, Frame_ogr[2], Frame_ogr[3]), transform.position.z);
+        float pos_x = smoothedPosition.x;
+        float pos_y = smoothedPosition.y;
+
+        //transform.position = smoothedPosition;
+        transform.position = new Vector3(Mathf.Clamp(pos_x, Frame_ogr[0], Frame_ogr[1]), Mathf.Clamp(pos_y, Frame_ogr[2], Frame_ogr[3]), transform.position.z);
+
+
     }
 }
