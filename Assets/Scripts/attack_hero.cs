@@ -21,7 +21,7 @@ public class attack_hero : MonoBehaviour
             Debug.Log(Camera.main.ScreenToWorldPoint(Input.mousePosition));
             Vector3 attackDir = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
             Debug.Log(attackDir);
-            an.Play("attack");
+            an.Play("Player_attack");
         }
     }
 }
