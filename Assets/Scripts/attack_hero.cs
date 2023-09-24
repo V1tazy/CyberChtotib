@@ -5,11 +5,15 @@ using UnityEngine;
 public class attack_hero : MonoBehaviour
 {
 
-
+    public GameObject Boss;
     public Animator an;
+    SpriteRenderer sr;
+    private int HP_boss;
     // Start is called before the first frame update
+
     void Start()
     {
+        sr =  GetComponent<SpriteRenderer>();
         
     }
 
@@ -18,10 +22,14 @@ public class attack_hero : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log(Camera.main.ScreenToWorldPoint(Input.mousePosition));
-            Vector3 attackDir = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
-            Debug.Log(attackDir);
             an.Play("Player_attack");
+
+            if (Vector3.Distance(Boss.transform.position, transform.position) <= 4f && sr.flipX != Boss.GetComponent<SpriteRenderer>().flipX)
+            {
+                Boss.GetComponent<Boss_1_HP>().hit = true;
+                Boss.GetComponent<Boss_1_HP>().HP -= 1;
+            }
+            
         }
     }
 }
