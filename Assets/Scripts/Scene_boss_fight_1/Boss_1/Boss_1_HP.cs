@@ -6,7 +6,6 @@ public class Boss_1_HP : MonoBehaviour
 {
 
     public int HP = 5;
-    public bool hit = false;
     public Animator an;
 
 
@@ -19,20 +18,17 @@ public class Boss_1_HP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (hit)
-        {
-            Debug.Log("hit");
-            an.Play("Get_d");
-            hit = false;
-        }
-
-
-
 
         if (HP == 0)
         {
             Destroy(gameObject);
         }
         
+    }
+
+    public void get_damage(int damage)
+    {
+        HP -= damage;
+        an.Play("Get_d");
     }
 }

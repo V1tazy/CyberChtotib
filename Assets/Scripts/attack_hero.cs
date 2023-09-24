@@ -26,8 +26,7 @@ public class attack_hero : MonoBehaviour
 
             if (Vector3.Distance(Boss.transform.position, transform.position) <= 4f && sr.flipX != Boss.GetComponent<SpriteRenderer>().flipX)
             {
-                Boss.GetComponent<Boss_1_HP>().hit = true;
-                Boss.GetComponent<Boss_1_HP>().HP -= 1;
+                Boss.GetComponent<Boss_1_HP>().get_damage(1);
             }
             
         }
