@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class Move_player : MonoBehaviour
 {
@@ -11,7 +10,6 @@ public class Move_player : MonoBehaviour
     BoxCollider2D box;
     SpriteRenderer sr;
     public GameObject playerMode;
-    private TMP_Text moneyText; //field money 
 
     public float speed = 5f;
 
@@ -50,17 +48,5 @@ public class Move_player : MonoBehaviour
         }
 
     }
-    /**
-    void OnCollisionEnter2D()
-    {
-        if (int.Parse(moneyText.text) > 1 )
-        {
-            moneyText.text =  (int.Parse(moneyText.text) - 1).ToString();
-        }
-        else{
-            SceneManager.LoadScene(0);
-        }
-        
-    }
-    */
+
 }
