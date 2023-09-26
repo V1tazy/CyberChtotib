@@ -9,7 +9,7 @@ public class Dialog : MonoBehaviour
     public float speedText;
     public TMP_Text dialogText;
 
-    public int index;
+    private int index;
 
     private void Start()
     {

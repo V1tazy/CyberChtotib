@@ -11,6 +11,9 @@ public class Boss_1_move : MonoBehaviour
     [SerializeField] float speed = 2.5f;
     private TMP_Text moneyText; //field money 
     SpriteRenderer sr;
+    
+    private float timeBtwShots;
+    public float startTimeBtwShots = 3f;
 
 
     void Start()
@@ -34,16 +37,26 @@ public class Boss_1_move : MonoBehaviour
         
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+
+
+    void OnCollisionStay2D(Collision2D collision)
     {
-        if (int.Parse(moneyText.text) > 1 )
+        if (timeBtwShots <= 0)
         {
-            moneyText.text =  (int.Parse(moneyText.text) - 1).ToString();
+            if (int.Parse(moneyText.text) > 1 )
+            {
+                moneyText.text =  (int.Parse(moneyText.text) - 1).ToString();
+            }
+            else{
+                SceneManager.LoadScene(0);
+            }
+            timeBtwShots = startTimeBtwShots;
+
         }
-        else{
-            SceneManager.LoadScene(0);
+        else
+        {
+            timeBtwShots -= Time.deltaTime;
         }
-        
     }
 
 

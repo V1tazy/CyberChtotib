@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class attack_hero : MonoBehaviour
+public class Attack_hero : MonoBehaviour
 {
 
     public GameObject Boss;
