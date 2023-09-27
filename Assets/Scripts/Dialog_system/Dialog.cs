@@ -6,13 +6,52 @@ using TMPro;
 public class Dialog : MonoBehaviour
 {
     public string[] texts;
+    public string[] numbers_line_unswers;
     public float speedText;
     public TMP_Text dialogText;
 
     private int index;
 
+
+    private Dictionary<int, List<string>> parse_unswers()
+    {
+        Dictionary<int, List<string>> dict = new Dictionary<int, List<string>>();
+        List<string> unswer_list = new List<string>();
+        var number_line = 0;
+        bool trig = false;
+        foreach(string i in numbers_line_unswers)
+        {
+            foreach(char j in i)
+            {
+                string word = "";
+                try
+                {
+                    number_line = int.Parse(i);
+                }
+                catch
+                {
+                    if (i == " ")
+                    {
+                        unswer_list.Add(word);
+                        word = "";
+                    }
+                    else
+                    {
+                        word += i;
+                    }
+                }
+            }
+            dict.Add(number_line, unswer_list);
+        }
+        return dict;
+    }
+
+
+
     private void Start()
     {
+        var dict = parse_unswers();
+       // Debug.Log(dict);
         dialogText.text = string.Empty;
         StartDialoge();
     }
