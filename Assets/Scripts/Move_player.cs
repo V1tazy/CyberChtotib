@@ -30,6 +30,7 @@ public class Move_player : MonoBehaviour
             if (movement_x != 0)
             {
                 sr.flipX = movement_x < 0 ? true : false;
+                //this.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().flipX = movement_x < 0 ? true : false;
             }
 
             transform.position += new Vector3(movement_x, movement_y, 0) * speed * Time.deltaTime;
