@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class E_Interact_Door : MonoBehaviour
 {
-
     public GameObject frame;
 
 
@@ -16,7 +15,7 @@ public class E_Interact_Door : MonoBehaviour
 
     private void Update()
     {
-        
+
     }
 
 
@@ -24,6 +23,7 @@ public class E_Interact_Door : MonoBehaviour
     {
         if (other.CompareTag("Door"))
         {
+
             frame.SetActive(true);
             if (Input.GetKeyDown (KeyCode.E))
             {

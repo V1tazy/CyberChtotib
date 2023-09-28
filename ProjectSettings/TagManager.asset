@@ -46,9 +46,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: "\u0446\u0443\u0446"
+  - name: Background
     uniqueID: 1715294403
     locked: 0
-  - name: New Layer 2
+  - name: Playerground
     uniqueID: 1341514015
+    locked: 0
+  - name: UILayer
+    uniqueID: 3677332981
     locked: 0
