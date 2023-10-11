@@ -94,8 +94,6 @@ MonoBehaviour:
   - i sm robot
   - wef
   - ergergreg
-  numbers_line_unswers:
-  - 3hello world
   speedText: 0.1
   dialogText: {fileID: 325409524842864526}
 --- !u!1 &1196087105477335699
@@ -399,8 +397,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -436, y: 97}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 1.3646, y: 97}
+  m_SizeDelta: {x: 1074.7291, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4762000800097358721
 CanvasRenderer:
