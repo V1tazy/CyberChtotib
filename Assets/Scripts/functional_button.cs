@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class functional_button : MonoBehaviour
 {
+    public GameObject inventMenu;   
+    private bool DTrig = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +17,17 @@ public class functional_button : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            Debug.Log("Inventory");
+            if(DTrig)
+            {
+                DTrig = false;
+                inventMenu.SetActive(DTrig);
+            }
+            else
+            {
+                DTrig = true;
+                inventMenu.SetActive(DTrig);
+            }
+             
         }
     }
 }
