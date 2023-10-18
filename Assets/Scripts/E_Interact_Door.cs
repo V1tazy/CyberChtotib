@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class E_Interact_Door : MonoBehaviour
 {
     public GameObject frame;
+    public string nameScene; 
 
 
     private void Start()
@@ -38,6 +39,7 @@ public class E_Interact_Door : MonoBehaviour
                         SceneManager.LoadScene(1);
                         break;
                 }
+
             }
             Debug.Log("This Door");
         }
