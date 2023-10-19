@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texts:
-  - hirhrher
+  - '*'
   - i sm robot
   - wef
   - ergergreg

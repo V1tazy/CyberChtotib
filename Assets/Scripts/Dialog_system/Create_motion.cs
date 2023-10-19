@@ -12,6 +12,7 @@ public class Create_motion : MonoBehaviour
     public GameObject canvas;
     public GameObject player;
     public GameObject HP_bar;
+    public GameObject Door;
 
     private GameObject Prefub;
     private bool doing = false;
@@ -39,7 +40,7 @@ public class Create_motion : MonoBehaviour
                 catch {}
                 
                 doing = false;
-                player.GetComponent<Move_player>().enabled = true;
+                player.GetComponent<Move_player_2D>().enabled = true;
                 player.GetComponent<Attack_hero>().enabled = true;
                 player.transform.GetChild(0).gameObject.GetComponent<Guns>().enabled = true;
                 HP_bar.SetActive(true);
@@ -54,9 +55,10 @@ public class Create_motion : MonoBehaviour
     {
         if (!one_spawn)
         {
-            player.GetComponent<Move_player>().enabled = false;
+            player.GetComponent<Move_player_2D>().enabled = false;
             player.GetComponent<Attack_hero>().enabled = false;
             player.transform.GetChild(0).gameObject.GetComponent<Guns>().enabled = false;
+            Door.GetComponent<Door2>().what = false;
             
 
             Prefub = Instantiate(dialog, new Vector3(0f, 0f, 0f), Quaternion.identity);

@@ -12,12 +12,8 @@ public class Bullet : MonoBehaviour
     public float distance;
     public int damage;
     public LayerMask whatIsSolid;
-    private TMP_Text moneyText; //field money 
 
-    void Start()
-    {
-        moneyText = GameObject.FindGameObjectWithTag("HP").GetComponent<TMP_Text>();
-    }
+ 
 
     // Update is called once per frame
     void Update()
@@ -27,18 +23,18 @@ public class Bullet : MonoBehaviour
         {
             if (hitInfo.collider.CompareTag("Boss"))
             {
-                hitInfo.collider.GetComponent<Boss_1_HP>().get_damage(1);
+                hitInfo.collider.GetComponent<Boss_1_HP>().get_damage(damage);
+                hitInfo.collider.GetComponent<Boss_1_move>().change_loc();
             }
 
-            if (hitInfo.collider.CompareTag("top-side"))
+            else if (hitInfo.collider.CompareTag("Boss2"))
             {
-                if (int.Parse(moneyText.text) > 1 )
-                {
-                    moneyText.text =  (int.Parse(moneyText.text) - 1).ToString();
-                }
-                else{
-                    SceneManager.LoadScene(0);
-                }
+                hitInfo.collider.GetComponent<Boss_1_HP>().get_damage(damage);
+            }
+
+            else if (hitInfo.collider.CompareTag("top-side"))
+            {
+                hitInfo.collider.GetComponent<Move_player_2D>().get_damage(damage);
             }
 
 

@@ -9,7 +9,6 @@ public class Boss_1_move : MonoBehaviour
 
     public GameObject target;
     [SerializeField] float speed = 2.5f;
-    private TMP_Text moneyText; //field money 
     SpriteRenderer sr;
     
     private float timeBtwShots;
@@ -18,7 +17,6 @@ public class Boss_1_move : MonoBehaviour
 
     void Start()
     {
-        moneyText = GameObject.FindGameObjectWithTag("HP").GetComponent<TMP_Text>();
         sr =  GetComponent<SpriteRenderer>();
     }
 
@@ -43,12 +41,9 @@ public class Boss_1_move : MonoBehaviour
     {
         if (timeBtwShots <= 0)
         {
-            if (int.Parse(moneyText.text) > 1 )
+            if (collision.gameObject.tag == "top-side")
             {
-                moneyText.text =  (int.Parse(moneyText.text) - 1).ToString();
-            }
-            else{
-                SceneManager.LoadScene(0);
+                target.GetComponent<Move_player>().get_damage(1);
             }
             timeBtwShots = startTimeBtwShots;
 
@@ -59,5 +54,14 @@ public class Boss_1_move : MonoBehaviour
         }
     }
 
-
+    public void change_loc()
+    {
+        float RandX, RandY;
+        Vector3 whereToSpawn;
+        RandX = Random.Range(-10.27f, 31.54f);
+        RandY = Random.Range(-12.33f, 15.31f);
+        whereToSpawn = new Vector3(RandX, RandY, 0f);
+        speed += 1f;
+        transform.position = whereToSpawn;
+    }
 }

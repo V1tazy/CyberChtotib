@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Move_player : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Move_player : MonoBehaviour
     BoxCollider2D box;
     SpriteRenderer sr;
     public GameObject playerMode;
+    public GameObject HP_bar;
+    public int HP = 5;
 
     public float speed = 5f;
 
@@ -17,11 +20,16 @@ public class Move_player : MonoBehaviour
     {
         box = GetComponent<BoxCollider2D>();
         sr =  GetComponent<SpriteRenderer>();
+        HP_bar.GetComponent<HP_bar_boss>().SetMaxHealth(HP);
     }
 
     private void Update()
     {
-        
+        if (HP <= 0)
+        {
+            Destroy(HP_bar);
+            SceneManager.LoadScene(0);
+        }
         
         if(playerMode.tag == "top-side") {
             float movement_x = Input.GetAxis("Horizontal");
@@ -48,6 +56,12 @@ public class Move_player : MonoBehaviour
             transform.position += new Vector3(movement_x, 0, 0) * speed * Time.deltaTime;
         }
 
+    }
+
+    public void get_damage(int damage)
+    {
+        HP -= damage;
+        HP_bar.GetComponent<HP_bar_boss>().SetHealth(HP);
     }
 
 }
