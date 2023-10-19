@@ -9,6 +9,7 @@ TagManager:
   - left-side
   - Door
   - Boss
+  - Boss2
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - Water
   - UI
   - Boss
-  - 
-  - 
+  - player
+  - Boss2
   - 
   - 
   - 

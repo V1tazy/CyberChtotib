@@ -6,7 +6,7 @@ public class Attack_hero : MonoBehaviour
 {
 
     public GameObject Boss;
-    public Animator an;
+    Animator an;
     SpriteRenderer sr;
     private int HP_boss;
     // Start is called before the first frame update
@@ -14,7 +14,7 @@ public class Attack_hero : MonoBehaviour
     void Start()
     {
         sr =  GetComponent<SpriteRenderer>();
-        
+        an = GetComponent<Animator>();
     }
 
     // Update is called once per frame

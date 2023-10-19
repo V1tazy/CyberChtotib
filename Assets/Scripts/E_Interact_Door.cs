@@ -25,7 +25,14 @@ public class E_Interact_Door : MonoBehaviour
         if (other.CompareTag("Door"))
         {
 
-            frame.SetActive(true);
+            try
+            {
+                frame.SetActive(true);
+            }    
+            catch
+            {
+                
+            }
             if (Input.GetKeyDown (KeyCode.E))
             {
                 Debug.Log("Button Is Working");

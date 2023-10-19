@@ -1,0 +1,4483 @@
+fileFormatVersion: 2
+guid: e3bdbf8bc9dcd3c47be70246336c9bed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 2
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 138.82
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ledenaya_koroleva_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 780
+        width: 201
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107001afea60bf1459936f604aaac598
+      internalID: -545708018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 804
+        width: 264
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c14402155015641b245b954d46ffb8
+      internalID: 1828631876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 866
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f28d51fd5329a4b92be07def481255
+      internalID: -884516759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 866
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ba1bf0346bfaa4c83d4cd9fdfa8047
+      internalID: -674708234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_4
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 786
+        width: 298
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876e6cf242393ab4592842bfe1bd0578
+      internalID: -595810213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_5
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 804
+        width: 264
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b471b26adfd0f7243893b7395a8642eb
+      internalID: 651691984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_6
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 866
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c26788f9d57c0499821bccd6ff0738
+      internalID: 1040933470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_7
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 866
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2674d9145ecfdc4da272b86688bb018
+      internalID: 1837786024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_8
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 852
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0354f6925e534468124b4ebfb40d84
+      internalID: -856866417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_9
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 852
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b7aa7251968c6499c793f62c72f7ae
+      internalID: 1793253917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_10
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 853
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ae7816c5561f34f80881ab8681c59e
+      internalID: 1198221831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_11
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 853
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb04f7e75bb450469b1525a3925d28f
+      internalID: -911389902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_12
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 822
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0894bc2e7895694f810edc59136a29a
+      internalID: 205861858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_13
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 822
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3176a71660df540499f23398a9ef31bf
+      internalID: -1441247282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_14
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 822
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a443d1bcc5aaa243a6944b1b5e0c02f
+      internalID: -1296021203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_15
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 822
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462ddbcc85ca6cd4584d11efaf61660c
+      internalID: -1425799425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 547
+        width: 238
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e9aafe741676041ba6957cdb29df5e
+      internalID: 1018122083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_17
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 556
+        width: 238
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa661a4b948cda4184037831b4259a1
+      internalID: -1492663765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_18
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 547
+        width: 238
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4947453ab0a597489da4ed3d8353459
+      internalID: 835016430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_19
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 560
+        width: 238
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3169c2f9c2cbd044a1228a1c1cb7ecb
+      internalID: -1706574898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 424
+        width: 360
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffcc729ab3665d4f912c3b64c35100f
+      internalID: -667287464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_21
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 475
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172c0102860e96c4fa5c7356d9c87b6d
+      internalID: -176967429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_22
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 474
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b4d1c429644654c8590ef5c808f741
+      internalID: -514155906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_23
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 320
+        width: 238
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b77b71c0611e3b4cb448e345aa5e70a
+      internalID: -1720461060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_24
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 324
+        width: 238
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f70515c9d431034b9b5c59747f6befa
+      internalID: 1333331331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_25
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 318
+        width: 232
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b566d65b31cc3e64b905d7039b866045
+      internalID: 2027723618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 447
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c0cd495e3728b489ec4e19f90e8a71
+      internalID: -22077544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_27
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 446
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dd7006e6d54c44ab5472f48d7da456
+      internalID: -1259447591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_28
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 437
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9229bd52320bf649a547083c43f01c5
+      internalID: 1748854648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 438
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24198ffed4a86d34bb30f7c3e84c4aaa
+      internalID: -976194722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_30
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 437
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576d45b649c27d642a61db818f8ec0a8
+      internalID: 467706847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_31
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 337
+        width: 354
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e2bab96f2ace44eb16ce1d8d77e77f
+      internalID: 303371688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_32
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 389
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc867f606eb68046b1009fb053bd048
+      internalID: -1342041822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_33
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 389
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0702174a50efb7841b5a57148c0d0f72
+      internalID: 633492168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_34
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 389
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca86af3e1f775434faeea7ff22eeac8a
+      internalID: 798629676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_35
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 388
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62109283fbf5fba4685ca3666203c71e
+      internalID: -686855687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_36
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 387
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a97816f1517e246a450640f6f188af
+      internalID: 167994963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_37
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 384
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d355b646ec6dc5b4ca9e0fbb558abf1e
+      internalID: -1836294066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_38
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 366
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a683743ac940e764ebb0e1c193acb63f
+      internalID: -2091458495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_39
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 362
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9789d7633525bf4d8b8e8bc9b796baa
+      internalID: 162225205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_40
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 360
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa704bf8e6f15424885dc3611db5ef08
+      internalID: 473027349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_41
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 359
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caaa7cb72ee604946adf84c15d9e1b53
+      internalID: -628827339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_42
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 358
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442ad52850b37a44cbf65282c1130c6b
+      internalID: -1596260079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_43
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 361
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b401dcacbfaed5a4e90c891fb490ab6c
+      internalID: 1003610169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_44
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 354
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00badd67355a15d438710cb0b2d121b9
+      internalID: 1526889615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_45
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 353
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0776981f38a857147a310db1a715c0c0
+      internalID: 1550152586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_46
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 354
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823b784a48e787f45997f9420fe724f9
+      internalID: -512004219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_47
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 353
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0135ce8852f5ce48bb2a1820628bbd0
+      internalID: 1450261942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_48
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 351
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb375662e8c2714fb9ed4b8c8885029
+      internalID: 1711551687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_49
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 352
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4594e6ab74973e04986236be93f84740
+      internalID: -989168529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_50
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 353
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c0e64ae3e767d43b38b5d5b4f81174
+      internalID: 8385242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_51
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 349
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5ca9b0bce58524f9cb353edc664f9c
+      internalID: -102127358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_52
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 251
+        width: 360
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544827e380cc80245bb20814c06ffedd
+      internalID: 483487820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_53
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 301
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35012cd315ce3b47868def9927717b8
+      internalID: -494957289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_54
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 302
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03065a9a517b7af4587175b3fb013117
+      internalID: 427966827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_55
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 105
+        width: 238
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7d165ca54fda54f873f951a1929f58
+      internalID: -1710518600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_56
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 105
+        width: 238
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70036532070c11e4494219df374269de
+      internalID: -399945588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_57
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 282
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3056da3685341ae49830a74a63760d44
+      internalID: 397087364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_58
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 273
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855ea49848a39964dbedb313a80b8471
+      internalID: -1493711177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_59
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 281
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d420fafa280a91a4abb5db017de6ba03
+      internalID: 17611398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_60
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 289
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5e4771bd8476b4485d8c4c2c973284
+      internalID: 873314004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_61
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 287
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92882c197c779a4288be2e5476d9467
+      internalID: -1673753795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_62
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 284
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f820dcff055d44845b1f588b9f3f5687
+      internalID: 1394217379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_63
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 261
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713c25491bf366845b5ced6da60e0b16
+      internalID: -1422118319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_64
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 265
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb842950a8e4354ebf33cb613a0a8b4
+      internalID: -417152276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_65
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 266
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dee6bf30e55294eba279f53f29599f
+      internalID: -1182348146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_66
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 277
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d8861b2c3bf9240a25a904cb3f7878
+      internalID: -453702295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_67
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 280
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51912b67d46cf9489c6181a2e292406
+      internalID: 137360227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_68
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 275
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec6c05333573ba4ea77ca118f4b4199
+      internalID: -912913890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_69
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 275
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb094540c3e7364e8fec840da4c28e6
+      internalID: -556396887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_70
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 277
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4b6b1b98644ef4d995f73a10c58f0b
+      internalID: 201367784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_71
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 273
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec348034ac69c6c48ab16428e6d108d4
+      internalID: 93684410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_72
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 274
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aead127c4389040a40e44e3bbe2dba
+      internalID: -914802460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_73
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 236
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afba210cc2cf634f87310c44fc9057f
+      internalID: -888612161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_74
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 258
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ce26b1b78c4534587eb8e134e3dd64
+      internalID: -2060992975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_75
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 261
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c136a26c2bebcb64bb768fc2b0f3a8ff
+      internalID: -1517731758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_76
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 266
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de89fe7232195354c8ff144e0bc37bcb
+      internalID: 1234077158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_77
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 264
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4838ced3655c345a17d49d9d012ed9
+      internalID: -50590217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_78
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 265
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f845264f806500c4b905cc3f2a809e6d
+      internalID: -1991992346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_79
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 264
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd7b34ed7c949c438f25fde4fec557a
+      internalID: -827286570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_80
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 259
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d997bb0c5d51454409a14bc505d73fb6
+      internalID: 951788652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_81
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 259
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1227f4b46e6d56446ac58ab5d8af958b
+      internalID: -682120872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_82
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 263
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee74e202bc3046c4baab66fbc1e76aba
+      internalID: -1569153802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_83
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 266
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56688fa2b3a5aa949a1c59674f5d8b29
+      internalID: 610239563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_84
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 247
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eae248cd8516724db3f19c30d33aac3
+      internalID: -1127054244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_85
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 258
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2a5ffb933cf784a96b3484918610b7
+      internalID: -1049438972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_86
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 235
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a00752e89276ef40b47ec24fb68c93f
+      internalID: -1194953170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_87
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 244
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0348f9427e8166e46acbd0aeaa6ee64f
+      internalID: 280840195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_88
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 250
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb3d8bef73ff8541b149336826695ff
+      internalID: -2079139030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_89
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 246
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b878564e03bea48b66df6a40cd4a87
+      internalID: 1349025606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_90
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 228
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b00c60bae6714344a3fe8da1c679cee
+      internalID: -1832432873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_91
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 239
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb8d45be0ffe9a498b6ea42a87b1995
+      internalID: 840396277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_92
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 237
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b087e9a9d8290034180371c0bdcdcc1f
+      internalID: -692249340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_93
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 236
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca29adf955e567a4b98c1c0a1cc9b6c2
+      internalID: 379239095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_94
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 164
+        width: 354
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95341d88c4ce12845820cc54d33ea62c
+      internalID: -191022131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_95
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 214
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7febc8f5d8d0d409f27fb17aadb1c0
+      internalID: 59774547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_96
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 221
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf41bdace90e764eb6bb2accc93e321
+      internalID: 1640493889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_97
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 215
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a5e2955fda94743821f0d90bc682c3
+      internalID: -610468973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_98
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 216
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f077d2dd143d04a884b773c840b162
+      internalID: -1547783332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_99
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 216
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e6cd5d726ca3141b74932d90fdf69f
+      internalID: 1617286482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_100
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 216
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f947bc9fd49e5f42a47e615292ad59f
+      internalID: -898218491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_101
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 211
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cab5886f9bdef4f9142ae03c3c3d71
+      internalID: -977005034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_102
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 193
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09bcbce5db7aaa45bcdbdde4c245e25
+      internalID: -1803738812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_103
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 177
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5423fea673d0c6458e427ebcae42a54
+      internalID: 1434368391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_104
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 192
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f14149729fb1e418afde2eea4be7bf
+      internalID: -1910164869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_105
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 188
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fc23004cbebb3419796adb9dbdc34c
+      internalID: -1174684016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_106
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 185
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905f178e6d07bcb45ad034d89c478c52
+      internalID: -326123597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_107
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 186
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496e1cbca06a3424e979f1e1ee942803
+      internalID: 699440998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_108
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 187
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874bb000a11be9644b4809cd9dc518d0
+      internalID: -2130633969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_109
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 189
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205c115fb4ce53b4f93e8512dd92b6ac
+      internalID: 649713863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_110
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 183
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c79652ec819ed44bb3daadb18d43efb
+      internalID: 415331819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_111
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 184
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dca6abcd18c4fc43a8553c2e10794b2
+      internalID: -1799620266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_112
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 187
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee80811ed5540246844c6c4c8966fac
+      internalID: -965187494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_113
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 180
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecabcc66e3a2a0e4693e114b2192f23c
+      internalID: -1182334924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_114
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 179
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ced584c73f5441408231d0641a9b40b
+      internalID: 1452203317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_115
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 178
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6b9412ad55c394298dd19bf63c3a2e
+      internalID: 749109257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_116
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 180
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94beb8435996e04281b649d62f11488
+      internalID: -1657385860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_117
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 181
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263402e9f97b5a24aad53e37cc43f282
+      internalID: 1545836995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_118
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 180
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b0761b6ef92624b89819ad116c38d4
+      internalID: -359638856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_119
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 181
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6861a3e2fcd6049add16e5ab8181b8
+      internalID: 1729417414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_120
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 155
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a7be029f1806b418e3b983103029b2
+      internalID: 596274839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_121
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 163
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef5aae0101670b428d90e75c737e71b
+      internalID: 1643962656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_122
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 175
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db43978a8cf1d764b930371a9c8888be
+      internalID: 203322375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_123
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 176
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fded6d03858074c9719ffd25b8b222
+      internalID: -1768144230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_124
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 173
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1f0bfececcc404586b8e88f063cff2
+      internalID: -2079036031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_125
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 122
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67557c122bb78fd4fac55de5d07af3ff
+      internalID: -655946662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_126
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 132
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca7207f918889f459b5aeb6ce59d388
+      internalID: 2114661248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_127
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 140
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec713272c56f8f40b74b3889ed13ff8
+      internalID: 954678608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_128
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 160
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3f4e5b068d2d04ab143b29098bce82
+      internalID: -1630131947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_129
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 153
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee609732acf546c42b2e2d732e2e9381
+      internalID: 1536492260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_130
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 154
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f576e304049bc84481e01d0ded8cbaf
+      internalID: 1807664376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_131
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 161
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495b785279c539f448d00489725a2f69
+      internalID: -1764358160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_132
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 130
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3901cb4e3a67a754388eeff46fdad5dc
+      internalID: -1510928787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_133
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 147
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa73a234093d7fd44acb98b3e5da6e75
+      internalID: 798513160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_134
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 143
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a01e102c08244a45beb01bfc6d05761
+      internalID: -2139776529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_135
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252b3bb7863929a498cda1bf60303344
+      internalID: -17541071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_136
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 113
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc179a5e17f3b074caab8e70491f9995
+      internalID: -774518598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_137
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 136
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ccf15616f152d4a89f347275a2f746
+      internalID: 1668616684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_138
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 129
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ea0563f7959a34381de4d8a84b6843
+      internalID: -1176974417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_139
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 120
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bd4a85782db154884bda2630cc472a
+      internalID: -1822727965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_140
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 127
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37076355dd160444088cfd6953a854a3
+      internalID: 1264251055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_141
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 123
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ad53e23cfc3f54e9e9bb6a77202800
+      internalID: -803885859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_142
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 110
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e9f61df2b2e5d478a4bb6d376411c4
+      internalID: -949850629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_143
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 115
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d505289ed872c42bd3b6860c5ed41e
+      internalID: -550170296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_144
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 121
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60676965887671a43a255c52a7a98aa1
+      internalID: -297909453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_145
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 113
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0e0f258b1f70d429500246e439f0b4
+      internalID: -2071727221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_146
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 112
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17442d339be67954da438a0683ba0708
+      internalID: 1547442429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_147
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 110
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ea67178dc0cb744848b59a8b01ca07
+      internalID: -791027351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_148
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 2
+        width: 75
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ef8b38c6804bf4f8d97d0929cc49b4
+      internalID: 1690356212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_149
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 80
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bfbc8b1765fbd4283153a69803e103
+      internalID: -1188867263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_150
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 23
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15f24fc39a1739429015ba91b787c9c
+      internalID: 495891554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_151
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53c0a85a076de340a8d8619d2b8e416
+      internalID: 1017888230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_152
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 5
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a3d236bcef452429e9126efaff52e6
+      internalID: -1872418397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_153
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea45bcab4e720b488b10dd73ed3d528
+      internalID: 1918306127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_154
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d0762aa8043a243bcebfd1e7f9cca2
+      internalID: 740796442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_155
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 61
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0616d58ccf11f1548bf56c4bda7f22ce
+      internalID: 1100639081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_156
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4585f0c1affdea844848e10ba3956c0f
+      internalID: 541295232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_157
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 62
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ec26fd64135494ca630eada6c6d73c
+      internalID: -1846569140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_158
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 64
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78e51d40b95af34ebd27c34da1776d1
+      internalID: 2006894914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_159
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 67
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200d081e536bdb8439822c0352a71417
+      internalID: 1872740501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_160
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 69
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f761f56690f9ef94eb70c80bcc2b7b1e
+      internalID: -379288752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_161
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 61
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afac8cb720a4b1242a89a416b596f255
+      internalID: 268871537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_162
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 45
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7f7e9f97f5a204ab9a6c57f86bb1d4
+      internalID: -1725325810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_163
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 57
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ab39a28f244eb4db3b6d36634f4b8c
+      internalID: -356160556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_164
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 55
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e640702e4cf1f06438437c17485032d2
+      internalID: 1198300049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_165
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 55
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42435a41b1d49f49a6b6775069dc934
+      internalID: -855309718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_166
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 60
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a361f022244a24418fa906b88a0c919
+      internalID: -1906325806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_167
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 57
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e514919d6ec0d478a9e1cda6bf3433
+      internalID: 145438160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_168
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 31
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43a2b8c03ff3984bbd6f49cb60e7b3c
+      internalID: 1329471683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_169
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 25
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21323210acef094db3c81d46bd46477
+      internalID: -529698351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_170
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 55
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbff9e1325725594498f7651769e7dbe
+      internalID: -488538814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_171
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 16
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03aa253a6aa9e744dadfb44c7c9497b1
+      internalID: 1203675024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_172
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 38
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50163c70fad3470458b08cd67f6000a9
+      internalID: -962664576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_173
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 41
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68afb78c3a593544e80a183103e454ac
+      internalID: -1880116117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_174
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 46
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33052b6c02e977a478a7ef375d802c5b
+      internalID: -1179894647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_175
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 41
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385115fd9def1204c96bd083b2296e57
+      internalID: 1219935257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_176
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 49
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e48628fc7380444b34669fe076e5f5
+      internalID: 474313865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_177
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 43
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e18f2174e6c994084a1545558f8012
+      internalID: -2053286556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_178
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 39
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914d10a27457abb4393bbd222d29121f
+      internalID: -2019679705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_179
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 46
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79144b3e93559a4da9e3214f7a60c43
+      internalID: 907617956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_180
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 46
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2c4ae4133cee744a41166e58b293af
+      internalID: -904997011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_181
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 43
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451c0a857a4c34f4f8bc2d0a5b546304
+      internalID: 800154461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_182
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 39
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0c8a698f99c8f488bef3d22d249131
+      internalID: -1788225244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_183
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 38
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01c77bb9d6aac944869a97f1170da06
+      internalID: -1746724016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_184
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 31
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f1d4eeb53ae1846875e7fd1fb9e050
+      internalID: -1335028336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_185
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 28
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cf7f07b54459b4f8bbdf1c1c0ea568
+      internalID: 1677774129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_186
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 32
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bab827cd643d445ac42ecae70e074c
+      internalID: 2109205923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_187
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 15
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cdd6c0aa578e34aa5bd75cc19da2b6
+      internalID: 1445711094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_188
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 24
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013dc5a4e3d48574091937ea59e4a3d7
+      internalID: -1521258661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_189
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 26
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a993e0056ca569e46b2ec771614e0c64
+      internalID: 1117877788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_190
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 30
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1616cb5e9a853645960f881cb2f5200
+      internalID: -899243153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_191
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 8
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9daf9dfd536684eb37805ce95cd8e8
+      internalID: -1336424615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_192
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 16
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66edd42c692a1a043a111478bbb75e23
+      internalID: -1722250108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_193
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 17
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8e8c88899b76a439541e22a77ac24a
+      internalID: 364649261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_194
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 19
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cb427ea4f72ba40a78e218ed4d87ac
+      internalID: -660395807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_195
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 8
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8346814d886cff14197a86e15a89ae80
+      internalID: -2010070104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_196
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eb10a0e938aa7449f3e69789ed63bd
+      internalID: -1867469422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ledenaya_koroleva_197
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f382d0288b126744966b16de4a4b02b
+      internalID: -2046819668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ledenaya_koroleva_0: -545708018
+      ledenaya_koroleva_1: 1828631876
+      ledenaya_koroleva_10: 1198221831
+      ledenaya_koroleva_100: -898218491
+      ledenaya_koroleva_101: -977005034
+      ledenaya_koroleva_102: -1803738812
+      ledenaya_koroleva_103: 1434368391
+      ledenaya_koroleva_104: -1910164869
+      ledenaya_koroleva_105: -1174684016
+      ledenaya_koroleva_106: -326123597
+      ledenaya_koroleva_107: 699440998
+      ledenaya_koroleva_108: -2130633969
+      ledenaya_koroleva_109: 649713863
+      ledenaya_koroleva_11: -911389902
+      ledenaya_koroleva_110: 415331819
+      ledenaya_koroleva_111: -1799620266
+      ledenaya_koroleva_112: -965187494
+      ledenaya_koroleva_113: -1182334924
+      ledenaya_koroleva_114: 1452203317
+      ledenaya_koroleva_115: 749109257
+      ledenaya_koroleva_116: -1657385860
+      ledenaya_koroleva_117: 1545836995
+      ledenaya_koroleva_118: -359638856
+      ledenaya_koroleva_119: 1729417414
+      ledenaya_koroleva_12: 205861858
+      ledenaya_koroleva_120: 596274839
+      ledenaya_koroleva_121: 1643962656
+      ledenaya_koroleva_122: 203322375
+      ledenaya_koroleva_123: -1768144230
+      ledenaya_koroleva_124: -2079036031
+      ledenaya_koroleva_125: -655946662
+      ledenaya_koroleva_126: 2114661248
+      ledenaya_koroleva_127: 954678608
+      ledenaya_koroleva_128: -1630131947
+      ledenaya_koroleva_129: 1536492260
+      ledenaya_koroleva_13: -1441247282
+      ledenaya_koroleva_130: 1807664376
+      ledenaya_koroleva_131: -1764358160
+      ledenaya_koroleva_132: -1510928787
+      ledenaya_koroleva_133: 798513160
+      ledenaya_koroleva_134: -2139776529
+      ledenaya_koroleva_135: -17541071
+      ledenaya_koroleva_136: -774518598
+      ledenaya_koroleva_137: 1668616684
+      ledenaya_koroleva_138: -1176974417
+      ledenaya_koroleva_139: -1822727965
+      ledenaya_koroleva_14: -1296021203
+      ledenaya_koroleva_140: 1264251055
+      ledenaya_koroleva_141: -803885859
+      ledenaya_koroleva_142: -949850629
+      ledenaya_koroleva_143: -550170296
+      ledenaya_koroleva_144: -297909453
+      ledenaya_koroleva_145: -2071727221
+      ledenaya_koroleva_146: 1547442429
+      ledenaya_koroleva_147: -791027351
+      ledenaya_koroleva_148: 1690356212
+      ledenaya_koroleva_149: -1188867263
+      ledenaya_koroleva_15: -1425799425
+      ledenaya_koroleva_150: 495891554
+      ledenaya_koroleva_151: 1017888230
+      ledenaya_koroleva_152: -1872418397
+      ledenaya_koroleva_153: 1918306127
+      ledenaya_koroleva_154: 740796442
+      ledenaya_koroleva_155: 1100639081
+      ledenaya_koroleva_156: 541295232
+      ledenaya_koroleva_157: -1846569140
+      ledenaya_koroleva_158: 2006894914
+      ledenaya_koroleva_159: 1872740501
+      ledenaya_koroleva_16: 1018122083
+      ledenaya_koroleva_160: -379288752
+      ledenaya_koroleva_161: 268871537
+      ledenaya_koroleva_162: -1725325810
+      ledenaya_koroleva_163: -356160556
+      ledenaya_koroleva_164: 1198300049
+      ledenaya_koroleva_165: -855309718
+      ledenaya_koroleva_166: -1906325806
+      ledenaya_koroleva_167: 145438160
+      ledenaya_koroleva_168: 1329471683
+      ledenaya_koroleva_169: -529698351
+      ledenaya_koroleva_17: -1492663765
+      ledenaya_koroleva_170: -488538814
+      ledenaya_koroleva_171: 1203675024
+      ledenaya_koroleva_172: -962664576
+      ledenaya_koroleva_173: -1880116117
+      ledenaya_koroleva_174: -1179894647
+      ledenaya_koroleva_175: 1219935257
+      ledenaya_koroleva_176: 474313865
+      ledenaya_koroleva_177: -2053286556
+      ledenaya_koroleva_178: -2019679705
+      ledenaya_koroleva_179: 907617956
+      ledenaya_koroleva_18: 835016430
+      ledenaya_koroleva_180: -904997011
+      ledenaya_koroleva_181: 800154461
+      ledenaya_koroleva_182: -1788225244
+      ledenaya_koroleva_183: -1746724016
+      ledenaya_koroleva_184: -1335028336
+      ledenaya_koroleva_185: 1677774129
+      ledenaya_koroleva_186: 2109205923
+      ledenaya_koroleva_187: 1445711094
+      ledenaya_koroleva_188: -1521258661
+      ledenaya_koroleva_189: 1117877788
+      ledenaya_koroleva_19: -1706574898
+      ledenaya_koroleva_190: -899243153
+      ledenaya_koroleva_191: -1336424615
+      ledenaya_koroleva_192: -1722250108
+      ledenaya_koroleva_193: 364649261
+      ledenaya_koroleva_194: -660395807
+      ledenaya_koroleva_195: -2010070104
+      ledenaya_koroleva_196: -1867469422
+      ledenaya_koroleva_197: -2046819668
+      ledenaya_koroleva_2: -884516759
+      ledenaya_koroleva_20: -667287464
+      ledenaya_koroleva_21: -176967429
+      ledenaya_koroleva_22: -514155906
+      ledenaya_koroleva_23: -1720461060
+      ledenaya_koroleva_24: 1333331331
+      ledenaya_koroleva_25: 2027723618
+      ledenaya_koroleva_26: -22077544
+      ledenaya_koroleva_27: -1259447591
+      ledenaya_koroleva_28: 1748854648
+      ledenaya_koroleva_29: -976194722
+      ledenaya_koroleva_3: -674708234
+      ledenaya_koroleva_30: 467706847
+      ledenaya_koroleva_31: 303371688
+      ledenaya_koroleva_32: -1342041822
+      ledenaya_koroleva_33: 633492168
+      ledenaya_koroleva_34: 798629676
+      ledenaya_koroleva_35: -686855687
+      ledenaya_koroleva_36: 167994963
+      ledenaya_koroleva_37: -1836294066
+      ledenaya_koroleva_38: -2091458495
+      ledenaya_koroleva_39: 162225205
+      ledenaya_koroleva_4: -595810213
+      ledenaya_koroleva_40: 473027349
+      ledenaya_koroleva_41: -628827339
+      ledenaya_koroleva_42: -1596260079
+      ledenaya_koroleva_43: 1003610169
+      ledenaya_koroleva_44: 1526889615
+      ledenaya_koroleva_45: 1550152586
+      ledenaya_koroleva_46: -512004219
+      ledenaya_koroleva_47: 1450261942
+      ledenaya_koroleva_48: 1711551687
+      ledenaya_koroleva_49: -989168529
+      ledenaya_koroleva_5: 651691984
+      ledenaya_koroleva_50: 8385242
+      ledenaya_koroleva_51: -102127358
+      ledenaya_koroleva_52: 483487820
+      ledenaya_koroleva_53: -494957289
+      ledenaya_koroleva_54: 427966827
+      ledenaya_koroleva_55: -1710518600
+      ledenaya_koroleva_56: -399945588
+      ledenaya_koroleva_57: 397087364
+      ledenaya_koroleva_58: -1493711177
+      ledenaya_koroleva_59: 17611398
+      ledenaya_koroleva_6: 1040933470
+      ledenaya_koroleva_60: 873314004
+      ledenaya_koroleva_61: -1673753795
+      ledenaya_koroleva_62: 1394217379
+      ledenaya_koroleva_63: -1422118319
+      ledenaya_koroleva_64: -417152276
+      ledenaya_koroleva_65: -1182348146
+      ledenaya_koroleva_66: -453702295
+      ledenaya_koroleva_67: 137360227
+      ledenaya_koroleva_68: -912913890
+      ledenaya_koroleva_69: -556396887
+      ledenaya_koroleva_7: 1837786024
+      ledenaya_koroleva_70: 201367784
+      ledenaya_koroleva_71: 93684410
+      ledenaya_koroleva_72: -914802460
+      ledenaya_koroleva_73: -888612161
+      ledenaya_koroleva_74: -2060992975
+      ledenaya_koroleva_75: -1517731758
+      ledenaya_koroleva_76: 1234077158
+      ledenaya_koroleva_77: -50590217
+      ledenaya_koroleva_78: -1991992346
+      ledenaya_koroleva_79: -827286570
+      ledenaya_koroleva_8: -856866417
+      ledenaya_koroleva_80: 951788652
+      ledenaya_koroleva_81: -682120872
+      ledenaya_koroleva_82: -1569153802
+      ledenaya_koroleva_83: 610239563
+      ledenaya_koroleva_84: -1127054244
+      ledenaya_koroleva_85: -1049438972
+      ledenaya_koroleva_86: -1194953170
+      ledenaya_koroleva_87: 280840195
+      ledenaya_koroleva_88: -2079139030
+      ledenaya_koroleva_89: 1349025606
+      ledenaya_koroleva_9: 1793253917
+      ledenaya_koroleva_90: -1832432873
+      ledenaya_koroleva_91: 840396277
+      ledenaya_koroleva_92: -692249340
+      ledenaya_koroleva_93: 379239095
+      ledenaya_koroleva_94: -191022131
+      ledenaya_koroleva_95: 59774547
+      ledenaya_koroleva_96: 1640493889
+      ledenaya_koroleva_97: -610468973
+      ledenaya_koroleva_98: -1547783332
+      ledenaya_koroleva_99: 1617286482
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
